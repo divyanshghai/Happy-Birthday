@@ -18,7 +18,15 @@ body {
     display: -ms-flexbox;
     display: flex;
     font-family: "Pacifico", sans-serif;
-    background: #21071e;
+   background: linear-gradient(
+    135deg,
+    #0f2027,
+    #004e92,
+    #0abfbc,
+    #2ecc71,
+    #1a2980
+  );
+  min-height: 100vh;
     -webkit-perspective: 1000px;
     perspective: 1000px;
     -webkit-transform-style: preserve-3d;
